@@ -73,15 +73,15 @@ export const data = {
     ],
 
     bank: [
-        {
-            id: 1,
-            name: 'BCA',
-            icon: './src/assets/images/bca.png',
-            rekening: '7771906412'
-        },
+        // {
+        //     id: 1,
+        //     name: 'BCA',
+        //     icon: './src/assets/images/bca.png',
+        //     rekening: '7771906412'
+        // },
         {
             id: 2,
-            name: 'Mandiri',
+            name: 'Imam Marlawanto',
             icon: './src/assets/images/mandiri.png',
             rekening: '1570011618908'
         },
