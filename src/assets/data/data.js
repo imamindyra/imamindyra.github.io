@@ -14,7 +14,7 @@ export const data = {
             child: 'Putri ke 5',
             father: 'Juanda',
             mother: 'Hani Haryani',
-            image: './src/assets/images/indyra.png'
+            image: './src/assets/images/indyra2.png'
         },
 
         couple: './src/assets/images/duaan.png'
@@ -52,20 +52,20 @@ export const data = {
     galeri: [
         {
             id: 1,
-            image: './src/assets/images/m1.jpeg'
+            image: './src/assets/images/galeri1.png'
         },
         {
             id: 2,
-            image: './src/assets/images/background.png'
+            image: './src/assets/images/galeri2.png'
         },
-        {
-            id: 3,
-            image: './src/assets/images/m.png'
-        },
-        {
-            id: 4,
-            image: './src/assets/images/m2.jpeg'
-        },
+        // {
+        //     id: 3,
+        //     image: './src/assets/images/m.png'
+        // },
+        // {
+        //     id: 4,
+        //     image: './src/assets/images/m2.jpeg'
+        // },
         // {
         //     id: 5,
         //     image: './src/assets/images/5.png'
