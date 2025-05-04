@@ -4,7 +4,7 @@ export const data = {
             id: 1,
             name: 'Imam Marlawanto',
             child: 'Putra ke 3',
-            father: 'alm. Sumartopo',
+            father: '(Alm) Sumartopo',
             mother: 'Lella Liesnawaty',
             image: './src/assets/images/cowo.png'
         },
@@ -41,7 +41,7 @@ export const data = {
                 finish: 'Selesai'
             }
         },
-        address: 'Lesung Dulang Resto. Jl. Bukit Pakar Timur No. 3, Ciburial, Kec. Cimenyan, Kab. Bandung'
+        address: 'Lisung Dulang Resto. Jl. Bukit Pakar Timur No. 3, Ciburial, Kec. Cimenyan, Kab. Bandung, Jawa Barat 40198'
     },
 
     link: {
@@ -75,19 +75,19 @@ export const data = {
     bank: [
         {
             id: 1,
-            name: 'Lorem Ipsum',
+            name: 'BCA',
             icon: './src/assets/images/bca.png',
-            rekening: '12345678'
+            rekening: '7771906412'
         },
         {
             id: 2,
-            name: 'Ipsum Lorem',
-            icon: './src/assets/images/bri.png',
-            rekening: '12345678'
+            name: 'Mandiri',
+            icon: './src/assets/images/mandiri.png',
+            rekening: '1570011618908'
         },
     ],
 
-    audio: './src/assets/audio/wedding.mp3',
+    audio: './src/assets/audio/thankgod.mp3',
 
     api: 'https://script.google.com/macros/s/AKfycbyydz6N4p2VWUG8zsXeURv6ap9RP8a4eC3x6N3x6qTDjMVr1cIBz9S0NsHw2rWvBOSXGg/exec',
 
