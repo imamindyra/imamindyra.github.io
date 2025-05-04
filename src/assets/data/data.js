@@ -45,8 +45,8 @@ export const data = {
     },
 
     link: {
-        calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
-        map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
+        calendar: 'https://calendar.google.com/calendar/u/3?cid=MDYyZmZkNjc2NzQ1ZGFjYWE1NDZmMWYzNzMyY2UxZmFkMmVhM2ZhNzBkY2EyYTIyMTc2ZGJjMDc1MTUwOTc0YUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t',
+        map: 'https://maps.app.goo.gl/zu7Gv73kXnJxJ5He9',
     },
 
     galeri: [
