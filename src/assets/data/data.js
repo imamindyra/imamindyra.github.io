@@ -2,46 +2,46 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Lorem Ipsum',
-            child: 'Putra ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
+            name: 'Imam Marlawanto',
+            child: 'Putra ke 3',
+            father: 'alm. Sumartopo',
+            mother: 'Lella Liesnawaty',
             image: './src/assets/images/cowo.png'
         },
         P: {
             id: 2,
-            name: 'Ipsum Lorem',
-            child: 'Putri ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
-            image: './src/assets/images/cewe.png'
+            name: 'Indyra Pebrianti',
+            child: 'Putri ke 5',
+            father: 'Juanda',
+            mother: 'Hani Haryani',
+            image: './src/assets/images/cwe.jpeg'
         },
 
-        couple: './src/assets/images/couple.png'
+        couple: './src/assets/images/bedua.jpeg'
     },
 
     time: {
         marriage: {
-            year: '2030',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
+            year: '2025',
+            month: 'Mei',
+            date: '17',
+            day: 'Sabtu',
             hours: {
-                start: '08.00',
+                start: '13.00',
                 finish: 'Selesai'
             }
         },
         reception: {
-            year: '2024',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
+            year: '2025',
+            month: 'Mei',
+            date: '17',
+            day: 'Sabtu',
             hours: {
-                start: '11.00',
+                start: '15.00',
                 finish: 'Selesai'
             }
         },
-        address: 'Kp. Lorem, RT 000/ RW 000, Desa.Lorem, Kec.Ipsum, Kab.Lorem, Lorem (1234)'
+        address: 'Lesung Dulang Resto. Jl. Bukit Pakar Timur No. 3, Ciburial, Kec. Cimenyan, Kab. Bandung'
     },
 
     link: {
