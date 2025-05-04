@@ -14,7 +14,7 @@ export const data = {
             child: 'Putri ke 5',
             father: 'Juanda',
             mother: 'Hani Haryani',
-            image: './src/assets/images/indyra2.png'
+            image: './src/assets/images/Indyra2.png'
         },
 
         couple: './src/assets/images/duaan.png'
