@@ -75,30 +75,30 @@ export const wishas = () => {
 
     let lengthComentar;
 
-    // const initialComentar = async () => {
-    //     containerComentar.innerHTML = `<h1 style="font-size: 1rem; margin: auto">Loading...</h1>`;
-    //     peopleComentar.textContent = '...';
-    //     pageNumber.textContent = '..';
+    const initialComentar = async () => {
+        containerComentar.innerHTML = `<h1 style="font-size: 1rem; margin: auto">Loading...</h1>`;
+        peopleComentar.textContent = '...';
+        pageNumber.textContent = '..';
 
-    //     try {
-    //         const response = await comentarService.getComentar();
-    //         const {comentar} = response;
+        try {
+            const response = await comentarService.getComentar();
+            const {comentar} = response;
 
-    //         lengthComentar = comentar.length;
-    //         comentar.reverse();
+            lengthComentar = comentar.length;
+            comentar.reverse();
 
-    //         if (comentar.length > 0) {
-    //             peopleComentar.textContent = `${comentar.length} Orang telah mengucapkan`;
-    //         } else {
-    //             peopleComentar.textContent = `Belum ada yang mengucapkan`;
-    //         }
+            if (comentar.length > 0) {
+                peopleComentar.textContent = `${comentar.length} Orang telah mengucapkan`;
+            } else {
+                peopleComentar.textContent = `Belum ada yang mengucapkan`;
+            }
 
-    //         pageNumber.textContent = '1';
-    //         renderElement(comentar.slice(startIndex, endIndex), containerComentar, listItemComentar);
-    //     } catch (error) {
-    //         return `Error : ${error.message}`;
-    //     }
-    // };
+            pageNumber.textContent = '1';
+            renderElement(comentar.slice(startIndex, endIndex), containerComentar, listItemComentar);
+        } catch (error) {
+            return `Error : ${error.message}`;
+        }
+    };
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();

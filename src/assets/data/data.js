@@ -52,24 +52,24 @@ export const data = {
     galeri: [
         {
             id: 1,
-            image: './src/assets/images/1.png'
+            image: './src/assets/images/m1.jpeg'
         },
         {
             id: 2,
-            image: './src/assets/images/2.png'
+            image: './src/assets/images/background.png'
         },
         {
             id: 3,
-            image: './src/assets/images/3.png'
+            image: './src/assets/images/m.png'
         },
         {
             id: 4,
-            image: './src/assets/images/4.png'
+            image: './src/assets/images/m2.jpeg'
         },
-        {
-            id: 5,
-            image: './src/assets/images/5.png'
-        }
+        // {
+        //     id: 5,
+        //     image: './src/assets/images/5.png'
+        // }
     ],
 
     bank: [
