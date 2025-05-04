@@ -10,32 +10,6 @@
     position: relative;
     transition: all 2s ease;
     transform: translateY(-100%);
-    /* background-image: url('../images/background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
-}
-
-.home::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    /* background-color: rgba(0, 0, 0, 0.3); */
-    z-index: 1;
-}
-
-.home h2,
-.home h3,
-.home figure,
-.home .home-time,
-.home a,
-.home .scroll_down {
-    position: relative;
-    z-index: 2;
 }
 
 .home.active {
