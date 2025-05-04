@@ -14,10 +14,10 @@ export const data = {
             child: 'Putri ke 5',
             father: 'Juanda',
             mother: 'Hani Haryani',
-            image: './src/assets/images/cwe.jpeg'
+            image: './src/assets/images/indyra.png'
         },
 
-        couple: './src/assets/images/bedua.jpeg'
+        couple: './src/assets/images/duaan.png'
     },
 
     time: {
